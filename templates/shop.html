@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Auto-Tuning Website Template | Home :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.useso.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+<link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+<!--slider-->
+<script type="text/javascript" src="{{ url_for('static', filename='js/modernizr.custom.53451.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.gallery.js')}}"></script>
+<script type="text/javascript">
+		$(function() {
+		$('#dg-container').gallery({
+		autoplay	:	true
+	});
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="logo">
+      <h1><a href="http://127.0.0.1:5000/index.html"><img src="../static/img/logo.png" alt=""></a></h1>
+    </div>
+        <div class="h_right">
+      <div class="drp-dwn">
+        <ul>
+          <li>
+            <h3>Select ur Language :</h3>
+          </li>
+          <li>
+            <select onChange="window.location=this.options[this.selectedIndex].value">
+              <option value="">English</option>
+              <option value="">German</option>
+              <option value="">French</option>
+            </select>
+          </li>
+          <li>
+            <h3 style="margin-left: 10px;">Currency :</h3>
+          </li>
+          <li>
+            <select onChange="window.location=this.options[this.selectedIndex].value">
+              <option value="">US Dollar-USD</option>
+              <option value="">Euro-EUR</option>
+              <option value="">Indian Rupee-INR</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <div class="header_top_right">
+        <div class="login"> <span><a href="http://127.0.0.1:5000/"><img src="../static/img/login.png" alt="" title="Login"></a></span> </div>
+        <div class="shopping_cart">
+          <div class="cart_img"> <img src="../static/img/header_cart.png"> </div>
+          <div class="cart"> <a href="#" title="View my shopping cart" rel="nofollow"> <span class="cart_title">Cart</span> <span class="no_product">(empty)</span> </a> </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="h_main">
+      <ul class="nav">
+        <li class="active"><a href="http://127.0.0.1:5000/index.html/">Home</a></li>
+        <li><a href="http://127.0.0.1:5000/maintain.html">Maintains</a></li>
+        <li><a href="http://127.0.0.1:5000/repair.html">Repairs</a></li>
+        <li><a href="http://127.0.0.1:5000/contact.html">Contact</a></li>
+      </ul>
+      <div class="search">
+        <form>
+          <input type="text" value="">
+          <input type="submit" value="">
+        </form>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="container">
+    <section id="dg-container" class="dg-container">
+      <div class="dg-wrapper"> <a href="#"><img src="../static/img/1.jpg" alt="image1" /></a> <a href="#"><img src="../static/img/2.jpg" alt="image2" /></a> <a href="#"><img src="../static/img/3.jpg" alt="image3" /></a> <a href="#"><img src="../static/img/4.jpg" alt="image4" /></a> <a href="#"><img src="../static/img/5.jpg" alt="image5" /></a> <a href="#"><img src="../static/img/6.jpg" alt="image1" /></a> <a href="#"><img src="../static/img/7.jpg" alt="image2" /></a> <a href="#"><img src="../static/img/8.jpg" alt="image3" /></a> </div>
+    </section>
+  </div>
+  <div class="main">
+    <div class="section group">
+      <div class="grid_1_of_4 img_1_of_4"> <a href="http://127.0.0.1:5000/details.html"><img src="../static/img/pic1.jpg"></a> <a href="details.html">
+        <h3>AudiA3</h3>
+        </a> </div>
+      <div class="grid_1_of_4 img_1_of_4"> <a href="http://127.0.0.1:5000/details.html"><img src="../static/img/pic3.jpg"></a> <a href="details.html">
+        <h3>Cadillac</h3>
+        </a> </div>
+      <div class="grid_1_of_4 img_1_of_4"> <a href="http://127.0.0.1:5000/details.html"><img src="../static/img/pic2.jpg"></a> <a href="details.html">
+        <h3>Mitsubishi</h3>
+        </a> </div>
+      <div class="grid_1_of_4 img_1_of_4"> <a href="http://127.0.0.1:5000/details.html"><img src="../static/img/pic4.jpg"></a> <a href="details.html">
+        <h3>The modern</h3>
+        </a> </div>
+      <div class="clear"></div>
+    </div>
+    <div class="section group btm">
+      <div class="grid_1_of_4 img_1_of_4"> <a href="http://127.0.0.1:5000/details.html"><img src="../static/img/pic5.jpg"></a> <a href="details.html">
+        <h3>The luxury sports car of benz</h3>
+        </a> </div>
+      <div class="grid_1_of_4 img_1_of_4"> <a href="http://127.0.0.1:5000/details.html"><img src="../static/img/pic6.jpg"></a> <a href="details.html">
+        <h3>Mercedes-benz commercial vehicles</h3>
+        </a> </div>
+      <div class="grid_1_of_4 img_1_of_4"> <a href="http://127.0.0.1:5000/details.html"><img src="../static/img/pic7.jpg"></a> <a href="details.html">
+        <h3>Suv of benz</h3>
+        </a> </div>
+      <div class="grid_1_of_4 img_1_of_4"> <a href="http://127.0.0.1:5000/details.html"><img src="../static/img/pic8.jpg"></a> <a href="details.html">
+        <h3>Toyota</h3>
+        </a> </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="f_left">
+      <div class="f_nav">
+        <ul>
+          <li><a href="">about us</a></li>
+          <li><a href="">Where we are</a></li>
+          <li><a href="">Customer service</a></li>
+          <li><a href="">Search</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="copy">
+        <p class="w3-link">© 40413817 Kai Napier University</p>
+      </div>
+    </div>
+    <div class="social-icons">
+      <ul>
+        <li class="icon1"><a href="#" target="_blank"> </a></li>
+        <li class="icon2"><a href="#" target="_blank"> </a></li>
+        <li class="icon3"><a href="#" target="_blank"> </a></li>
+        <li class="icon4"><a href="#" target="_blank"> </a></li>
+        <div class="clear"></div>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</body>
+</html>

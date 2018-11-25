@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Auto-Tuning Website Template | Home :: </title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href='http://fonts.useso.com/css?family=Anaheim' rel='stylesheet' type='text/css'>
+<link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
+<!--slider-->
+<script type="text/javascript" src="{{ url_for('static', filename='js/modernizr.custom.53451.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.gallery.js')}}"></script>
+<script type="text/javascript">
+		$(function() {
+		$('#dg-container').gallery({
+		autoplay	:	true
+	});
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="logo">
+      <h1><a href="http://127.0.0.1:5000/index.html"><img src="../static/img/logo.png" alt=""></a></h1>
+    </div>
+        <div class="h_right">
+      <div class="drp-dwn">
+        <ul>
+          <li>
+            <h3>Select ur Language :</h3>
+          </li>
+          <li>
+            <select onChange="window.location=this.options[this.selectedIndex].value">
+              <option value="">English</option>
+              <option value="">German</option>
+              <option value="">French</option>
+            </select>
+          </li>
+          <li>
+            <h3 style="margin-left: 10px;">Currency :</h3>
+          </li>
+          <li>
+            <select onChange="window.location=this.options[this.selectedIndex].value">
+              <option value="">US Dollar-USD</option>
+              <option value="">Euro-EUR</option>
+              <option value="">Indian Rupee-INR</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <div class="header_top_right">
+        <div class="Login"> <span><a href="http://127.0.0.1:5000/"><img src="../static/img/login.png" alt="" title="Login"></a></span> </div>
+        <div class="shopping_cart">
+          <div class="cart_img"> <img src="../static/img/header_cart.png"> </div>
+          <div class="cart"> <a href="#" title="View my shopping cart" rel="nofollow"> <span class="cart_title">Cart</span> <span class="no_product">(empty)</span> </a> </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="main1">
+      <div class="boxes">
+        <h2>You know the importance of maintenance</h2>
+        <div class="repair">
+          <section>
+            <ul class="lb-album">
+              <li> <a href="#image-1"> <img src="../static/img/r_pic1.jpg" alt=""> <span> </span> </a>
+                <div class="lb-overlay" id="image-1"> <img src="../static/img/r_pic1.jpg" alt=""> <a href="#page" class="lb-close"> </a> </div>
+                <p>Our car repair factory belongs to the second class maintenance enterprise, the equipment is complete, owns the business reception room, the customer's lounge, the maintenance workshop, the parking lot. Perfect enterprise management system, implement system of vehicles into the factory, the customer pays a return visit system, vehicle reception settlement computer management, maintenance work quality for all kinds of vehicles, such as engine, chassis, air conditioning, sheet metal, paint, 24 hour service, etc.</p>
+                <div class="rd_more"> <a href="http://127.0.0.1:5000/details.html" class="button button-rounded">Know more</a> </div>
+              </li>
+              <li> <a href="#image-2"> <img src="../static/img/r_pic2.jpg" alt=""> <span> </span> </a>
+                <div class="lb-overlay" id="image-2"> <img src="../static/img/r_pic2.jpg" alt=""> <a href="#page" class="lb-close"> </a> </div>
+                <p>Enterprise adheres to the main business of vehicle maintenance services, take the market as the guide, adhere to the "customer first, quality first, serves attentively" the management objective, to create first-class facilities and service quality at the same time, pay attention to improve the whole quality of services, execute process specification operation, strict quality inspection, maintenance in line with the requirements of management standards. Insist on customer orientation.</p>
+                <div class="rd_more"> <a href="http://127.0.0.1:5000/details.html" class="button button-rounded">Know more</a> </div>
+              </li>
+              <li> <a href="#image-3"> <img src="../static/img/r_pic3.jpg" alt=""> <span> </span> </a>
+                <div class="lb-overlay" id="image-3"> <img src="../static/img/r_pic3.jpg" alt="image03"> <a href="#page" class="lb-close"> </a> </div>
+                <p>Our equipment is state-of-the-art</p>
+                <div class="rd_more"> <a href="http://127.0.0.1:5000/details.html" class="button button-rounded">Know more</a> </div>
+              </li>
+              <li> <a href="#image-4"> <img src="../static/img/r_pic4.jpg" alt=""> <span> </span> </a>
+                <div class="lb-overlay" id="image-4"> <img src="../static/img/r_pic4.jpg" alt="image04"> <a href="#page" class="lb-close"> </a> </div>
+                <p>vOur employees are conscientious</p>
+                <div class="rd_more"> <a href="http://127.0.0.1:5000/details.html" class="button button-rounded">Know more</a> </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="repair">
+          <section>
+            <ul class="lb-album">
+              <li> <a href="#image-5"> <img src="../static/img/r_pic5.jpg" alt=""> <span> </span> </a>
+                <div class="lb-overlay" id="image-5"> <img src="../static/img/r_pic5.jpg" alt="image05"> <a href="#page" class="lb-close"> </a> </div>
+                <p>Our cranes are working.</p>
+                <div class="rd_more"> <a href="http://127.0.0.1:5000/details.html" class="button button-rounded">Know more</a> </div>
+              </li>
+              <li> <a href="#image-6"> <img src="../static/img/r_pic6.jpg" alt=""> <span> </span> </a>
+                <div class="lb-overlay" id="image-6"> <img src="../static/img/r_pic6.jpg" alt="image06"> <a href="#page" class="lb-close"> </a> </div>
+                <p>Our enthusiastic staff.</p>
+                <div class="rd_more"> <a href="http://127.0.0.1:5000/details.html" class="button button-rounded">Know more</a> </div>
+              </li>
+              <li> <a href="#image-7"> <img src="../static/img/r_pic7.jpg" alt=""> <span> </span> </a>
+                <div class="lb-overlay" id="image-7"> <img src="../static/img/r_pic7.jpg" alt="image07"> <a href="#page" class="lb-close"> </a> </div>
+                <p>The handle has no corner.</p>
+                <div class="rd_more"> <a href="http://127.0.0.1:5000/details.html" class="button button-rounded">Know more</a> </div>
+              </li>
+              <li> <a href="#image-8"> <img src="../static/img/r_pic8.jpg" alt=""> <span> </span> </a>
+                <div class="lb-overlay" id="image-8"> <img src="../static/img/r_pic8.jpg" alt="image08"> <a href="#page" class="lb-close"> </a> </div>
+                <p>Clean and safe maintenance environment.</p>
+                <div class="rd_more"> <a href="http://127.0.0.1:5000/details.html" class="button button-rounded">Know more</a> </div>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="f_left">
+      <div class="f_nav">
+        <ul>
+          <li><a href="">about us</a></li>
+          <li><a href="">Where we are</a></li>
+          <li><a href="">Customer service</a></li>
+          <li><a href="">Search</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="copy">
+        <p class="w3-link">© 40413817 Kai Napier University</p>
+      </div>
+    </div>
+    <div class="social-icons">
+      <ul>
+        <li class="icon1"><a href="#" target="_blank"> </a></li>
+        <li class="icon2"><a href="#" target="_blank"> </a></li>
+        <li class="icon3"><a href="#" target="_blank"> </a></li>
+        <li class="icon4"><a href="#" target="_blank"> </a></li>
+        <div class="clear"></div>
+      </ul>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  </div>
+</div>
+</body>
+</html>
